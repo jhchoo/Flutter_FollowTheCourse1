@@ -1,16 +1,9 @@
-# flutter_app_test
+# 플러터 강좌 따라 해보기
 
-A new Flutter project.
+블로그
+https://jhchooo.blogspot.com/2021/03/flutter.html
 
-## Getting Started
+너튜브에서 "flutter 강좌" 검색시 나오는 첫번째 목록을 실습 해본다.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+코딩셰프님의 "플러터 강좌 순한맛" 26강
+https://www.youtube.com/watch?v=AdYRASHRKwE&list=PLQt_pzi-LLfpcRFhWMywTePfZ2aPapvyl
