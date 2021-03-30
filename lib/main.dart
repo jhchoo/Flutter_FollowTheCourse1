@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'flutter01.dart'; // 6,7,8 강, MyHomePage
 import 'flutter02.dart'; // 9 강, MyCard
 import 'flutter03.dart'; // 10, 11강, Grade
+import 'flutter04.dart'; // 14강, MyPage
 
 void main() => runApp(MyApp());
 
@@ -11,11 +12,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp( 
       title: 'BBANTO',
       theme: ThemeData(
-        primarySwatch: Colors.blue
+        primarySwatch: Colors.red
       ),
     // home: MyHomePage(),
     // home: MyCard(),
-    home: Grade(),
+    // home: Grade(),
+     home: MyPage(),
     );
   }
 }
