@@ -8,6 +8,8 @@ import 'flutter06.dart'; // 19강, MySnackBar
 import 'flutter07.dart'; // 19강, MyToast
 import 'flutter08.dart'; // 20강, MyContainer
 import 'flutter09.dart'; // 21강, MyColumn
+import 'flutter10.dart'; // 22강, FirstPage
+import 'flutter11.dart'; // 23강, ScreenA
 
 void main() => runApp(MyApp());
 
@@ -27,7 +29,16 @@ class MyApp extends StatelessWidget {
     // home: MySnackBar(),
     // home: MyToast(),
     // home: MyContainer(),
-      home: MyColumn(),
+    // home: MyColumn(),
+    // home: FirstPage(),
+
+      initialRoute: '/', // home을 빼고 route를 사용한다. ScreenA
+      routes: {
+        '/' : (_) => ScreenA(),
+        '/b' : (_) => ScreenB(),
+        '/c' : (_) => ScreenC(),
+      },
+
     );
   } 
 }
